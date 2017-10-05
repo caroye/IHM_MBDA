@@ -26,7 +26,7 @@ public class ProjetCaroyBordier extends javax.swing.JFrame {
         this.setVisible(true);
     }*/
     public void LayountComponents(){
-        this.add(map1);
+        
     }
     /**
      * This method is called from within the constructor to initialize the form.
@@ -39,7 +39,8 @@ public class ProjetCaroyBordier extends javax.swing.JFrame {
 
         menuBar1 = new java.awt.MenuBar();
         menu1 = new java.awt.Menu();
-        map1 = new com.esiee.mbdaihm.tps.Map();
+        panel1 = new java.awt.Panel();
+        panel2 = new java.awt.Panel();
         jMenuBar1 = new javax.swing.JMenuBar();
         jMenu1 = new javax.swing.JMenu();
         jMenu2 = new javax.swing.JMenu();
@@ -49,18 +50,31 @@ public class ProjetCaroyBordier extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        javax.swing.GroupLayout map1Layout = new javax.swing.GroupLayout(map1);
-        map1.setLayout(map1Layout);
-        map1Layout.setHorizontalGroup(
-            map1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 400, Short.MAX_VALUE)
+        javax.swing.GroupLayout panel1Layout = new javax.swing.GroupLayout(panel1);
+        panel1.setLayout(panel1Layout);
+        panel1Layout.setHorizontalGroup(
+            panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 100, Short.MAX_VALUE)
         );
-        map1Layout.setVerticalGroup(
-            map1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        panel1Layout.setVerticalGroup(
+            panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 279, Short.MAX_VALUE)
         );
 
-        getContentPane().add(map1, java.awt.BorderLayout.CENTER);
+        getContentPane().add(panel1, java.awt.BorderLayout.LINE_END);
+
+        javax.swing.GroupLayout panel2Layout = new javax.swing.GroupLayout(panel2);
+        panel2.setLayout(panel2Layout);
+        panel2Layout.setHorizontalGroup(
+            panel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 300, Short.MAX_VALUE)
+        );
+        panel2Layout.setVerticalGroup(
+            panel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 279, Short.MAX_VALUE)
+        );
+
+        getContentPane().add(panel2, java.awt.BorderLayout.CENTER);
 
         jMenu1.setText("File");
         jMenuBar1.add(jMenu1);
@@ -116,8 +130,9 @@ public class ProjetCaroyBordier extends javax.swing.JFrame {
     private javax.swing.JMenu jMenu1;
     private javax.swing.JMenu jMenu2;
     private javax.swing.JMenuBar jMenuBar1;
-    private com.esiee.mbdaihm.tps.Map map1;
     private java.awt.Menu menu1;
     private java.awt.MenuBar menuBar1;
+    private java.awt.Panel panel1;
+    private java.awt.Panel panel2;
     // End of variables declaration//GEN-END:variables
 }

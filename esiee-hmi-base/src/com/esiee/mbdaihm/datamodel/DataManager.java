@@ -24,7 +24,7 @@ public enum DataManager
     private static final Logger LOGGER = LoggerFactory.getLogger(DataManager.class);
 
     //<editor-fold defaultstate="expanded" desc="Attributes ...">
-    private List<Country> countries;
+    private List<Country> countries = Collections.EMPTY_LIST;
 
     private Map<String, Country> countriesMap = Collections.emptyMap();
 
