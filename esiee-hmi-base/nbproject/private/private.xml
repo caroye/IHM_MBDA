@@ -9,12 +9,12 @@
         <group>
             <file>file:/C:/Users/ELODIECAROY/Documents/ESIEE/E5/ESIEE-IHM-2017/ESIEE-IHM-2017/esiee-hmi-base/src/com/esiee/mbdaihm/tps/ProjetCaroyBordier.java</file>
             <file>file:/C:/Users/ELODIECAROY/Documents/ESIEE/E5/ESIEE-IHM-2017/ESIEE-IHM-2017/esiee-hmi-base/src/com/esiee/mbdaihm/tps/Map.java</file>
-            <file>file:/C:/Users/ELODIECAROY/Documents/ESIEE/E5/ESIEE-IHM-2017/ESIEE-IHM-2017/esiee-hmi-base/src/com/esiee/mbdaihm/datamodel/indicators/Indicator.java</file>
             <file>file:/C:/Users/ELODIECAROY/Documents/ESIEE/E5/ESIEE-IHM-2017/ESIEE-IHM-2017/esiee-hmi-base/src/com/esiee/mbdaihm/datamodel/countries/Country.java</file>
+            <file>file:/C:/Users/ELODIECAROY/Documents/ESIEE/E5/ESIEE-IHM-2017/ESIEE-IHM-2017/esiee-hmi-base/src/com/esiee/mbdaihm/dataaccess/wdi/WDIIndicatorsDecoder.java</file>
             <file>file:/C:/Users/ELODIECAROY/Documents/ESIEE/E5/ESIEE-IHM-2017/ESIEE-IHM-2017/esiee-hmi-base/src/com/esiee/mbdaihm/datamodel/DataManager.java</file>
             <file>file:/C:/Users/ELODIECAROY/Documents/ESIEE/E5/ESIEE-IHM-2017/ESIEE-IHM-2017/esiee-hmi-base/src/com/esiee/mbdaihm/Launch.java</file>
             <file>file:/C:/Users/ELODIECAROY/Documents/ESIEE/E5/ESIEE-IHM-2017/ESIEE-IHM-2017/esiee-hmi-base/src/com/esiee/mbdaihm/tps/CalculIndicator.java</file>
-            <file>file:/C:/Users/ELODIECAROY/Documents/ESIEE/E5/ESIEE-IHM-2017/ESIEE-IHM-2017/esiee-hmi-base/src/com/esiee/mbdaihm/exercise/DataCheck.java</file>
+            <file>file:/C:/Users/ELODIECAROY/Documents/ESIEE/E5/ESIEE-IHM-2017/ESIEE-IHM-2017/esiee-hmi-base/src/com/esiee/mbdaihm/tps/ColorProvider.java</file>
         </group>
     </open-files>
 </project-private>
