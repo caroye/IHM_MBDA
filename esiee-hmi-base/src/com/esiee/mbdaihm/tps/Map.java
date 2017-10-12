@@ -179,8 +179,8 @@ public class Map extends JPanel{
                 g2d.setPaint(Color.BLACK);
                 g2d.draw(path);
                 //g2d.setPaint(ColorProvider.getColorForCountry(country,"SP.DYN.LE00.FE.IN",1995));
-                g2d.setPaint(Color.GRAY);
-                //g2d.setPaint(ColorProvider.getColorForCountry(country));
+                //g2d.setPaint(Color.GRAY);
+                g2d.setPaint(ColorProvider.getColorForCountry(country,"SP.DYN.LE00.FE.IN",year));
                 g2d.fill(path);
                 /*double val = country.getValueForYear(year);
                 if(val>min+4*step){

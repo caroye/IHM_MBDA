@@ -77,11 +77,19 @@ public class ProjetCaroyBordier extends javax.swing.JFrame {
         map1.setLayout(map1Layout);
         map1Layout.setHorizontalGroup(
             map1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+<<<<<<< HEAD
             .addGap(0, 462, Short.MAX_VALUE)
         );
         map1Layout.setVerticalGroup(
             map1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 0, Short.MAX_VALUE)
+=======
+            .addGap(0, 300, Short.MAX_VALUE)
+        );
+        map1Layout.setVerticalGroup(
+            map1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 274, Short.MAX_VALUE)
+>>>>>>> 2c98e04c4360a2a49d9988a7f5fb4b921530c8a9
         );
 
         javax.swing.GroupLayout panel2Layout = new javax.swing.GroupLayout(panel2);
