@@ -7,14 +7,11 @@
             <file>file:/D:/nmortier/Desktop/Formations/Cours%20ESIEE/2017/Livraison/esiee-hmi-base/src/com/esiee/mbdaihm/exercise/SeriesCheck.java</file>
         </group>
         <group>
-            <file>file:/C:/Users/ELODIECAROY/Documents/ESIEE/E5/ESIEE-IHM-2017/ESIEE-IHM-2017/esiee-hmi-base/src/com/esiee/mbdaihm/tps/ProjetCaroyBordier.java</file>
-            <file>file:/C:/Users/ELODIECAROY/Documents/ESIEE/E5/ESIEE-IHM-2017/ESIEE-IHM-2017/esiee-hmi-base/src/com/esiee/mbdaihm/tps/Map.java</file>
-            <file>file:/C:/Users/ELODIECAROY/Documents/ESIEE/E5/ESIEE-IHM-2017/ESIEE-IHM-2017/esiee-hmi-base/src/com/esiee/mbdaihm/datamodel/countries/Country.java</file>
-            <file>file:/C:/Users/ELODIECAROY/Documents/ESIEE/E5/ESIEE-IHM-2017/ESIEE-IHM-2017/esiee-hmi-base/src/com/esiee/mbdaihm/dataaccess/wdi/WDIIndicatorsDecoder.java</file>
-            <file>file:/C:/Users/ELODIECAROY/Documents/ESIEE/E5/ESIEE-IHM-2017/ESIEE-IHM-2017/esiee-hmi-base/src/com/esiee/mbdaihm/datamodel/DataManager.java</file>
-            <file>file:/C:/Users/ELODIECAROY/Documents/ESIEE/E5/ESIEE-IHM-2017/ESIEE-IHM-2017/esiee-hmi-base/src/com/esiee/mbdaihm/Launch.java</file>
-            <file>file:/C:/Users/ELODIECAROY/Documents/ESIEE/E5/ESIEE-IHM-2017/ESIEE-IHM-2017/esiee-hmi-base/src/com/esiee/mbdaihm/tps/CalculIndicator.java</file>
-            <file>file:/C:/Users/ELODIECAROY/Documents/ESIEE/E5/ESIEE-IHM-2017/ESIEE-IHM-2017/esiee-hmi-base/src/com/esiee/mbdaihm/tps/ColorProvider.java</file>
+            <file>file:/D:/ESIEE/E5/IHM/IHM_MBDA/esiee-hmi-base/src/com/esiee/mbdaihm/tps/ProjetCaroyBordier.java</file>
+            <file>file:/D:/ESIEE/E5/IHM/IHM_MBDA/esiee-hmi-base/src/com/esiee/mbdaihm/tps/Map.java</file>
+            <file>file:/D:/ESIEE/E5/IHM/IHM_MBDA/esiee-hmi-base/src/com/esiee/mbdaihm/tps/ColorProvider.java</file>
+            <file>file:/D:/ESIEE/E5/IHM/IHM_MBDA/esiee-hmi-base/src/com/esiee/mbdaihm/tps/CalculIndicator.java</file>
+            <file>file:/D:/ESIEE/E5/IHM/IHM_MBDA/esiee-hmi-base/src/com/esiee/mbdaihm/Launch.java</file>
         </group>
     </open-files>
 </project-private>

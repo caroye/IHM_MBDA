@@ -53,7 +53,7 @@ public class Map extends JPanel{
             year = 1995;
             min = 0;
             step = 0;
-            myColor = new  CalculIndicator("ceci est un code");
+            //myColor = new  CalculIndicator("ceci est un code");
             //indic = WDIIndicatorsDecoder.decode(Launch.WDI_FOLDER);
             /*
             Indicator toTest = DataManager.INSTANCE.getIndicators().
@@ -166,6 +166,7 @@ public class Map extends JPanel{
         g2d.setStroke(new BasicStroke(1.0f/zoom));
         
         for (Country country : DataManager.INSTANCE.getCountries()) {
+           // System.out.println(country.getName());
             List<Polygon> poly = country.getGeometry().getPolygons();
             for (Polygon polygon : poly) {
                 int i =0;
@@ -177,9 +178,9 @@ public class Map extends JPanel{
                 path.closePath();
                 g2d.setPaint(Color.BLACK);
                 g2d.draw(path);
-                
-                
-                g2d.setPaint(ColorProvider.getColorForCountry(country));
+                //g2d.setPaint(ColorProvider.getColorForCountry(country,"SP.DYN.LE00.FE.IN",1995));
+                g2d.setPaint(Color.GRAY);
+                //g2d.setPaint(ColorProvider.getColorForCountry(country));
                 g2d.fill(path);
                 /*double val = country.getValueForYear(year);
                 if(val>min+4*step){
