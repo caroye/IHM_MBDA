@@ -22,43 +22,45 @@ import java.util.List;
  */
 class ColorProvider {
 
-    private Indicator lastComputedIndicator = null;
+    private static Indicator lastComputedIndicator = null;
+    private static double max;
+    private static double min;
+    private static double step;
     
-    public ColorProvider(Indicator indic){
-        lastComputedIndicator = indic;
-    }
+    
+    
     static Paint getColorForCountry(Country country, String codeIndic, int year) {
         Indicator toTest = DataManager.INSTANCE.getIndicators().
                     filter(i->i.getCode().equals(codeIndic)).findFirst().get();
 
+        if(toTest != lastComputedIndicator){
+            List<RawWDIData> myIndicatorToMap
+                        = WDIDataDecoder.decode(Launch.WDI_FOLDER,toTest.getCode() );
+            DoubleSummaryStatistics stats = myIndicatorToMap.stream().
+                    mapToDouble(rd -> rd.getValueForYear(""+year)).
+                    filter(d -> !(Double.isNaN(d))).
+                    summaryStatistics();
 
-        List<RawWDIData> myIndicatorToMap
-                    = WDIDataDecoder.decode(Launch.WDI_FOLDER,toTest.getCode() );
-        DoubleSummaryStatistics stats = myIndicatorToMap.stream().
-                mapToDouble(rd -> rd.getValueForYear(""+year)).
-                filter(d -> !(Double.isNaN(d))).
-                summaryStatistics();
+            max = stats.getMax();
+            min = stats.getMin();
+            step = (max-min)/5;
+            lastComputedIndicator = toTest;
+        }
 
-        DataManager.INSTANCE.setCurrentIndicator(toTest);
-        double max = stats.getMax();
-        double min = stats.getMin();
-        double step = (max-min)/5;
-       //if(DataManager.INSTANCE.getCurrentIndicator() == lastComputedIndicator){
-       //DataManager.INSTANCE.getCurrentIndicator()
-       double val = country.getValueForYear(year);
-                if(val>min+4*step){
-                    return Color.CYAN;
-                }
-                if(val<=min+4*step){
-                    return Color.RED;
-                }if(val<=min+3*step){
-                    return Color.GREEN;
-                }if(val<=min+2*step){
-                    return Color.YELLOW;
-                }if(val<=min+step){
-                    return Color.PINK;
-                }
-       return Color.GRAY;
+        double val = country.getValueForYear(year);
+        if(val>min+4*step){
+            return Color.CYAN;
+        }
+        if(val<=min+4*step){
+            return Color.RED;
+        }if(val<=min+3*step){
+            return Color.GREEN;
+        }if(val<=min+2*step){
+            return Color.YELLOW;
+        }if(val<=min+step){
+            return Color.PINK;
+        }
+        return Color.GRAY;
     }
     
 }

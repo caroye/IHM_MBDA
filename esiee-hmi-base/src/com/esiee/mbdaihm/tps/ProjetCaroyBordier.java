@@ -42,7 +42,6 @@ public class ProjetCaroyBordier extends javax.swing.JFrame {
         panel1 = new java.awt.Panel();
         panel2 = new java.awt.Panel();
         map1 = new com.esiee.mbdaihm.tps.Map();
-        jRadioButton1 = new javax.swing.JRadioButton();
         jMenuBar1 = new javax.swing.JMenuBar();
         jMenu1 = new javax.swing.JMenu();
         jMenu2 = new javax.swing.JMenu();
@@ -65,22 +64,15 @@ public class ProjetCaroyBordier extends javax.swing.JFrame {
 
         getContentPane().add(panel1, java.awt.BorderLayout.LINE_END);
 
-        jRadioButton1.setText("jRadioButton1");
-
         javax.swing.GroupLayout map1Layout = new javax.swing.GroupLayout(map1);
         map1.setLayout(map1Layout);
         map1Layout.setHorizontalGroup(
             map1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, map1Layout.createSequentialGroup()
-                .addGap(0, 193, Short.MAX_VALUE)
-                .addComponent(jRadioButton1))
+            .addGap(0, 300, Short.MAX_VALUE)
         );
         map1Layout.setVerticalGroup(
             map1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, map1Layout.createSequentialGroup()
-                .addContainerGap(240, Short.MAX_VALUE)
-                .addComponent(jRadioButton1)
-                .addContainerGap())
+            .addGap(0, 274, Short.MAX_VALUE)
         );
 
         javax.swing.GroupLayout panel2Layout = new javax.swing.GroupLayout(panel2);
@@ -150,7 +142,6 @@ public class ProjetCaroyBordier extends javax.swing.JFrame {
     private javax.swing.JMenu jMenu1;
     private javax.swing.JMenu jMenu2;
     private javax.swing.JMenuBar jMenuBar1;
-    private javax.swing.JRadioButton jRadioButton1;
     private com.esiee.mbdaihm.tps.Map map1;
     private java.awt.Menu menu1;
     private java.awt.MenuBar menuBar1;
